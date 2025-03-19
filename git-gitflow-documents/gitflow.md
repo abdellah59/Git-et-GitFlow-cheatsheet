@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 # 2. Guide Complet sur GitFlow
 
 ## 2.1 Introduction à GitFlow
@@ -139,3 +141,4 @@ Utiliser `git merge` ou `git rebase` pour résoudre les conflits.
 ✔️ Corriger les bugs urgents via `hotfix/*`.  
 
 GitFlow est un outil puissant pour structurer vos workflows Git !
+>>>>>>> 098428a9cd917e9f6d61112312f963625e8a0470
