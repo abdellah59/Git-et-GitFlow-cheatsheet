@@ -7,6 +7,7 @@ Ce cheat sheet couvre les commandes essentielles pour **Git** et **GitFlow** afi
 # 1. Git
 ### 1.1 Introduction à Git
 
+<<<<<<< HEAD
    - [1.1.1 C'est quoi Git ? ](introduction-a-git.md)
    - [1.1.2 Pourquoi adopter Git ? ](introduction-a-git.md)
    - [1.1.3 Comment utiliser Git au quotidien ?](introduction-a-git.md)
@@ -27,10 +28,33 @@ Ce cheat sheet couvre les commandes essentielles pour **Git** et **GitFlow** afi
    - [1.3.2 Vérifier l'état du dépôt (git status) ](#commandes-de-base)
    - [1.3.3 Consulter l'historique des commits (git log)](#travailler-avec-des-branches)
    - [1.3.3 Annuler des modifications (git checkout, git reset)](#travailler-avec-des-branches)
+=======
+   - [1.1.1 C'est quoi Git ? ](git-gitflow-documents/git.md)
+   - [1.1.2 Pourquoi adopter Git ? ](git-gitflow-documents/git.md)
+   - [1.1.3 Comment utiliser Git au quotidien ?](git-gitflow-documents/git.md)
+   - [1.1.4 Quelle différence existe-t-il entre Git et GitHub ?](git-gitflow-documents/git.md)
+
+## 1.2 Installation et configuration de Git
+
+   - [1.2.1 Installation et configuration de Git (windows, macOS, Linux)](git-gitflow-documents/git.md)
+   - [1.2.2 Paramétrage initial de Git (git config)](git-gitflow-documents/git.md)
+   - [1.2.3 Créer et associer une clé SSH](git-gitflow-documents/git.md)
+
+## 1.3 Les bases de Git
+
+   - [1.3.1 Créer un dépôt Git (git init)](git-gitflow-documents/git.md)
+   - [1.3.2 Cloner un dépôt existant (git clone) ](git-gitflow-documents/git.md)
+   - [1.3.3 Ajouter des fichiers au suivi (git add)](git-gitflow-documents/git.md)
+   - [1.3.1 Enregistrer les modifications (git commit)](git-gitflow-documents/git.md)
+   - [1.3.2 Vérifier l'état du dépôt (git status) ](git-gitflow-documents/git.md)
+   - [1.3.3 Consulter l'historique des commits (git log)](git-gitflow-documents/git.md)
+   - [1.3.3 Annuler des modifications (git checkout, git reset)](git-gitflow-documents/git.md)
+>>>>>>> 098428a9cd917e9f6d61112312f963625e8a0470
 
 
 ## 1.4 Les bases de Git
 
+<<<<<<< HEAD
    - [1.4.1 Présentation des branches](.git/configuration-de-git.md)
    - [1.4.2 Créer et naviguer entre les branches (git branch, git checkout, git switch) ](#commandes-de-base)
    - [1.4.3 Fusionner des branches (git merge)](#travailler-avec-des-branches)
@@ -38,6 +62,15 @@ Ce cheat sheet couvre les commandes essentielles pour **Git** et **GitFlow** afi
    - [1.4.2 Envoyer des modifications vers un dépôt distant (git push)](#commandes-de-base)
    - [1.4.3 Récupérer les modifications depuis un dépôt distant (git pull)](#travailler-avec-des-branches)
    - [1.4.3 Collaborer avec des forks et des pull requests](#travailler-avec-des-branches)
+=======
+   - [1.4.1 Présentation des branches](git-gitflow-documents/git.md)
+   - [1.4.2 Créer et naviguer entre les branches (git branch, git checkout, git switch) ](git-gitflow-documents/git.md)
+   - [1.4.3 Fusionner des branches (git merge)](git-gitflow-documents/git.md)
+   - [1.4.1 Résoudre les conflits de fusion](git-gitflow-documents/git.md)
+   - [1.4.2 Envoyer des modifications vers un dépôt distant (git push)](git-gitflow-documents/git.md)
+   - [1.4.3 Récupérer les modifications depuis un dépôt distant (git pull)](git-gitflow-documents/git.md)
+   - [1.4.3 Collaborer avec des forks et des pull requests](git-gitflow-documents/git.md)
+>>>>>>> 098428a9cd917e9f6d61112312f963625e8a0470
 
 ### Configuration de Git
 ```bash
