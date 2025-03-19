@@ -1,17 +1,19 @@
 # Git & GitFlow Cheat Sheet
 
 <div align="center">
-  <img height="150" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2Fsoftware-incubator%2Fgit-and-github-a-beginners-guide-81fb984ce36a&psig=AOvVaw0pYQPHmgQ7YM2kS-42Fh_t&ust=1742479555227000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCMig-6iolowDFQAAAAAdAAAAABAE" />
+  <img height="80" src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*sOWIyC1rjrWSUdIS1KvyHw.gif" />
 </div>
  
 
-Project Description
 Ce document est un guide pratique pour comprendre et maîtriser Git et GitFlow. Que vous soyez un débutant découvrant les bases ou un utilisateur expérimenté cherchant à approfondir ses connaissances, cette cheat sheet aborde un large éventail de sujets essentiels.
 
 
 ## Table des matières
 
-# 1. Git
+# 1. Git <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="39" alt="git logo"  />
+  <img width="20" />
+</div>
+
 ### 1.1 Introduction à Git
 
    - [1.1.1 C'est quoi Git ? ](git-gitflow-documents/git.md)
@@ -234,7 +236,7 @@ Ce cheat sheet couvre les commandes essentielles pour **Git** et **GitFlow** afi
         <tr>
             <td align="right"><code>git checkout HEAD [fichier]</code></td>
             <td>Restaure un fichier spécifique dans le répertoire de travail au dernier commit (HEAD)</td>
-            <td><code>git checkout HEAD exemple.md</code></td>
+            <td><codue>git checkout HEAD exemple.md</code></td>
         </tr>
         <tr>
             <td align="right"><code>git revert [commit]</code></td>
@@ -260,4 +262,27 @@ Ce cheat sheet couvre les commandes essentielles pour **Git** et **GitFlow** afi
 
 </table>
 
+### Outils Utilisés
 
+- ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+- ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
+- ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+
+
+# Auteurs
+
+#### Abdellah
+- **Role**: Tech lead
+- **GitHub**: [Abdellah](https://github.com/abdellah59)
+
+#### Aymeric
+- **Role**: Developeur
+- **GitHub**: [Aymeric](https://github.com/x2z591)
+
+#### Milan
+- **Role**: Developeur
+- **GitHub**: [Milan](https://github.com/Milan59300)
+
+#### SymBiios
+- **Role**: Developeur
+- **GitHub**: [Justin Didelot](https://github.com/SymBiios)

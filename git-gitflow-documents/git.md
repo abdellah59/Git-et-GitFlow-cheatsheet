@@ -1,32 +1,19 @@
 <<<<<<< HEAD
 =======
-# 1. Git
+# 1. Git <div align="center">
+  <img height="80" src="https://cours-web.ch/git/img/git-basics/git-logo.png" />
+</div>
+ 
 
 ## 1.1 Introduction à Git
 
 ### 1.1.1 C'est quoi Git ?
 
-Décentralisation : Contrairement aux systèmes de gestion de version centralisés, Git permet à chaque développeur de disposer de sa propre copie complète du projet, avec tout l'historique des modifications. Cela signifie qu'il est possible de travailler de manière autonome sans avoir besoin d'une connexion réseau constante.
-
-Suivi des versions : Git garde une trace de chaque modification apportée aux fichiers d'un projet, ce qui permet de revenir facilement à des versions antérieures, de voir quelles modifications ont été effectuées, et par qui.
-
-Branches : Git permet de travailler sur des branches distinctes, ce qui permet de tester de nouvelles fonctionnalités, de corriger des bugs, ou d'expérimenter sans affecter le code principal. Ces branches peuvent ensuite être fusionnées une fois terminées.
-
-Collaboratif : Git facilite la collaboration entre plusieurs développeurs. Les changements de chacun peuvent être intégrés (fusionnés) dans le projet principal, et Git gère les conflits de manière efficace en permettant aux développeurs de résoudre les divergences manuellement ou automatiquement.
-
-Performance : Git est conçu pour être rapide et efficace, même pour de très grands projets. La plupart des opérations (comme le commit, le checkout ou le merge) sont effectuées localement, ce qui les rend plus rapides.
+Git est un outil de gestion de versions principalement utilisé pour suivre les modifications apportées à des fichiers, généralement du code, mais il peut aussi gérer d'autres types de fichiers. Plus précisément, il s'agit d'un système de contrôle de version décentralisé, ce qui signifie que chaque utilisateur possède une copie intégrale du projet.
 
 ### 1.1.2 Pourquoi adopter Git ? 
 
-Décentralisation : Contrairement aux systèmes de gestion de version centralisés, Git permet à chaque développeur de disposer de sa propre copie complète du projet, avec tout l'historique des modifications. Cela signifie qu'il est possible de travailler de manière autonome sans avoir besoin d'une connexion réseau constante.
-
-Suivi des versions : Git garde une trace de chaque modification apportée aux fichiers d'un projet, ce qui permet de revenir facilement à des versions antérieures, de voir quelles modifications ont été effectuées, et par qui.
-
-Branches : Git permet de travailler sur des branches distinctes, ce qui permet de tester de nouvelles fonctionnalités, de corriger des bugs, ou d'expérimenter sans affecter le code principal. Ces branches peuvent ensuite être fusionnées une fois terminées.
-
-Collaboratif : Git facilite la collaboration entre plusieurs développeurs. Les changements de chacun peuvent être intégrés (fusionnés) dans le projet principal, et Git gère les conflits de manière efficace en permettant aux développeurs de résoudre les divergences manuellement ou automatiquement.
-
-Performance : Git est conçu pour être rapide et efficace, même pour de très grands projets. La plupart des opérations (comme le commit, le checkout ou le merge) sont effectuées localement, ce qui les rend plus rapides.
+DGit permet à plusieurs utilisateurs de collaborer sur un même projet en parallèle, sans risque de perte ou d'écrasement des modifications de chacun. Il enregistre chaque changement, offre un suivi complet de l'historique du projet, permet de revenir à une version antérieure, d'identifier les contributeurs et de fusionner des modifications provenant de différentes sources.
 
 ### 1.1.3 Comment utiliser Git au quotidien ?
 
@@ -47,6 +34,11 @@ Voici un aperçu du fonctionnement de Git :
   Tu peux aussi utiliser git fetch ou git pull pour récupérer les modifications faites par d'autres contributeurs depuis le dépôt distant.
 
 ### 1.1.4 Quelle différence existe-t-il entre Git et GitHub ?
+
+<div align="center">
+  <img height="150" src="https://1.bp.blogspot.com/-WY2YpNr3W6g/UY6tZAc-H3I/AAAAAAAABLY/xJ9x3wIY8V8/s1600/Github2.png" />
+</div>
+ 
 
 Git est le système de gestion de versions que tu utilises localement sur ton ordinateur pour gérer l’historique de ton code, créer des branches, et effectuer des commits.
 GitHub est une plateforme web qui héberge des dépôts Git distants, permettant la collaboration à distance, la gestion de projets, et le partage de code entre plusieurs développeurs.
