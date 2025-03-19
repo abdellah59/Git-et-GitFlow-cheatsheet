@@ -36,8 +36,6 @@ Ce document est un guide pratique pour comprendre et maîtriser Git et GitFlow. 
    - [1.3.5 Vérifier l'état du dépôt (git status)](git-gitflow-documents/git.md)
    - [1.3.6 Consulter l'historique des commits (git log)](git-gitflow-documents/git.md)
    - [1.3.7 Annuler des modifications (git checkout, git reset)](git-gitflow-documents/git.md)
-
-=======
    - [1.3.1 Enregistrer les modifications (git commit)](git-gitflow-documents/git.md)
    - [1.3.2 Vérifier l'état du dépôt (git status) ](git-gitflow-documents/git.md)
    - [1.3.3 Consulter l'historique des commits (git log)](git-gitflow-documents/git.md)
