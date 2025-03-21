@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 =======
 # 1. Git <div align="center">
   <img height="80" src="https://cours-web.ch/git/img/git-basics/git-logo.png" />
@@ -11,29 +11,8 @@
 
 Git est un outil de gestion de versions principalement utilisé pour suivre les modifications apportées à des fichiers, généralement du code, mais il peut aussi gérer d'autres types de fichiers. Plus précisément, il s'agit d'un système de contrôle de version décentralisé, ce qui signifie que chaque utilisateur possède une copie intégrale du projet.
 
-### 1.1.2 Pourquoi adopter Git ? 
 
-DGit permet à plusieurs utilisateurs de collaborer sur un même projet en parallèle, sans risque de perte ou d'écrasement des modifications de chacun. Il enregistre chaque changement, offre un suivi complet de l'historique du projet, permet de revenir à une version antérieure, d'identifier les contributeurs et de fusionner des modifications provenant de différentes sources.
-
-### 1.1.3 Comment utiliser Git au quotidien ?
-
-Git suit les modifications sous forme de commits. Chaque commit est une sorte de "photo" de l'état de ton projet à un moment donné. Ces commits sont organisés de manière à pouvoir reconstruire l'historique complet du projet.
-
-Voici un aperçu du fonctionnement de Git :
-
-- Dépôt local et dépôt distant :
-  Un dépôt Git (repository ou repo) est l'endroit où Git stocke les fichiers du projet et l'historique des modifications. Chaque utilisateur a une copie locale du dépôt.
-  Les équipes partagent souvent un dépôt distant (comme sur GitHub ou GitLab), qui est une version centralisée du projet.
-
-- Travail local :
-  Travailler localement signifie que tu peux apporter des modifications à ton dépôt sans être connecté à un dépôt distant.
-  Une fois que tu es satisfait de tes changements, tu les commits pour sauvegarder tes modifications dans l'historique local.
-
-- Synchronisation avec le dépôt distant :
-  Une fois les changements commis localement, tu peux utiliser des commandes comme git push pour envoyer tes modifications au dépôt distant.
-  Tu peux aussi utiliser git fetch ou git pull pour récupérer les modifications faites par d'autres contributeurs depuis le dépôt distant.
-
-### 1.1.4 Quelle différence existe-t-il entre Git et GitHub ?
+### 1.1.2 Quelle différence existe-t-il entre Git et GitHub ?
 
 <div align="center">
   <img height="150" src="https://1.bp.blogspot.com/-WY2YpNr3W6g/UY6tZAc-H3I/AAAAAAAABLY/xJ9x3wIY8V8/s1600/Github2.png" />
@@ -46,7 +25,7 @@ Les deux outils se complètent : tu utilises Git pour gérer ton code localement
 
 ## 1.2 Installation et configuration de Git
 
-### 1.2.1 Installation et configuration de Git (windows, macOS, Linux)
+### 1.2.1 Installation de Git (windows, macOS, Linux)
 
 Installation de Git
 
@@ -69,23 +48,6 @@ Sur la plupart des distributions, Git peut être installé via le gestionnaire d
 sudo apt update
 sudo apt install git
 ```
-
-Configuration initiale de Git
-
-Une fois Git installé, vous devez configurer votre identité utilisateur. Cela se fait via les commandes git config :
-
-Nom d'utilisateur :
-
-```arduino
-git config --global user.name "Votre Nom"
-```
-
-Adresse e-mail :
-
-```nginx
-git config --global user.email "votre.email@example.com"
-```
-
 ### 1.2.2 Paramétrage initial de Git (git config)
 
 Une fois Git installé, vous devez configurer votre identité utilisateur. Cela se fait via les commandes git config :
@@ -128,9 +90,8 @@ cat ~/.ssh/id_rsa.pub
 Puis collez-la dans la section des clés SSH sur GitHub ou un autre service similaire.
 
 Et voilà, Git est installé et configuré sur votre machine !
->>>>>>> 098428a9cd917e9f6d61112312f963625e8a0470
 
-## 1.3 Les bases de Git
+## 1.3 Les commandes de bases de Git
 
 ### 1.3.1 Créer un dépôt Git (git init)
 
@@ -232,26 +193,6 @@ git log
 
 Cela affichera une liste des commits, avec les informations suivantes pour chaque commit :
 
-L'identifiant du commit (hash)
-L'auteur du commit
-La date du commit
-Le message associé au commit
-
-Exemple de sortie :
-
-```bash
-commit 7a9b23e3b562ce3f8bb2a32aadb47f3b51d2e7c1
-Author: John Doe <john.doe@example.com>
-Date:   Tue Mar 10 12:34:56 2025 +0000
-
-    Correction du bug dans la fonction X
-
-commit a3d1e6d2c549ec0b0a4950a07bb9dbcb282ba50a
-Author: Jane Smith <jane.smith@example.com>
-Date:   Mon Mar 9 15:12:00 2025 +0000
-
-    Ajout de la nouvelle fonctionnalité Y
-```
 
 ### 1.3.7 Annuler des modifications (git checkout, git reset)
 
@@ -265,15 +206,6 @@ Si vous avez modifié un fichier mais que vous n'avez pas encore fait de commit,
 ```bash
 git checkout -- <nom-du-fichier>
 ```
-
-Exemple : Si vous avez modifié index.html et souhaitez revenir à la version précédente :
-
-```bash
-git checkout -- index.html
-```
-
-Cela restaurera index.html à son dernier commit, annulant toutes les modifications non validées.
-
 Note : Utiliser git checkout de cette manière affecte uniquement les fichiers modifiés non committés. Cela ne touche pas les fichiers ajoutés avec git add (mais pas encore committés).
 
 2. Annuler les modifications dans la zone de staging (git reset)
@@ -284,14 +216,6 @@ Retirer un fichier du staging :
 ```bash
 git reset <nom-du-fichier>
 ```
-
-Exemple : Si vous avez ajouté un fichier index.html à la zone de staging et souhaitez annuler cette étape :
-
-```bash
-git reset index.html
-```
-
-Cela enlèvera index.html de la zone de staging, mais les modifications dans le fichier seront toujours présentes localement.
 
 Retirer tous les fichiers du staging :
 
@@ -324,40 +248,3 @@ git reset --hard HEAD~1
 Cela supprimera à la fois le dernier commit et toutes les modifications non validées.
 
 Note : L'option --hard perd définitivement les modifications, alors assurez-vous d'avoir sauvegardé ce que vous souhaitez conserver avant d'utiliser cette option.
-
-Résumé des commandes :
-
-Annuler des modifications locales (non committées) dans un fichier spécifique :
-
-```bash
-git checkout -- <nom-du-fichier>
-```
-
-Retirer un fichier du staging (zone de préparation avant commit) :
-
-```bash
-git reset <nom-du-fichier>
-```
-
-Retirer tous les fichiers du staging :
-
-```bash
-git reset
-```
-
-Annuler un commit, garder les modifications dans les fichiers :
-
-```bash
-git reset --soft HEAD~1
-```
-
-Annuler un commit, supprimer les modifications :
-
-```bash
-git reset --hard HEAD~1
-```
-
-Conseils :
-
-Prudence avec git reset --hard : Cette commande supprime définitivement les modifications locales. Assurez-vous de ne pas avoir de travail important non sauvegardé avant de l'exécuter.
-Pour revenir à un état antérieur du dépôt sans supprimer de travail, privilégiez git reset --soft ou git checkout.
