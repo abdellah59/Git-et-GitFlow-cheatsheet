@@ -248,3 +248,46 @@ git reset --hard HEAD~1
 Cela supprimera à la fois le dernier commit et toutes les modifications non validées.
 
 Note : L'option --hard perd définitivement les modifications, alors assurez-vous d'avoir sauvegardé ce que vous souhaitez conserver avant d'utiliser cette option.
+
+### 1.3.8 Enregistrer les modifications (git commit)
+
+Ajouter les fichiers à l'index (staging area) :
+
+Si vous avez des fichiers modifiés, vous devez les ajouter à l'index pour les inclure dans le commit. Vous pouvez ajouter un fichier spécifique ou tous les fichiers modifiés.
+
+Pour ajouter un fichier spécifique :
+
+```bash
+git add chemin/du/fichier
+```
+Pour ajouter tous les fichiers modifiés :
+
+```bash
+git add
+```
+
+### 1.3.9 Vérifier l'état du dépôt (git status)
+
+Utilité de git status :
+
+Gérer les fichiers non suivis : Vous pouvez identifier facilement les fichiers qui ne sont pas encore suivis par Git.
+Vérifier les modifications en cours : Avant de faire un commit, vous pouvez vérifier si les fichiers sont prêts à être ajoutés ou s'il y a des modifications qui n'ont pas été incluses.
+Gérer les ajouts ou suppressions de fichiers : Vous pouvez voir quels fichiers sont prêts à être supprimés ou ajoutés dans l'index.
+
+En résumé, git status est une commande essentielle pour suivre l'état actuel de votre dépôt Git et savoir ce qui a changé, ce qui reste à ajouter à l'index, et ce qui est prêt à être commité.
+
+
+### 1.3.10 Consulter l'historique des commits (git log)
+
+    git log vous montre l'historique complet des commits.
+    git log --oneline simplifie l'affichage en une ligne par commit.
+    git log -n <nombre> limite l'affichage aux X derniers commits.
+    git log --author=<nom> filtre les commits par auteur.
+    git log --since=<date> et git log --until=<date> permettent de filtrer les commits par période.
+
+Cela vous permet de consulter rapidement l'historique des changements apportés à votre dépôt et de retrouver facilement des informations sur les commits spécifiques.
+
+### 1.3.11 Annuler des modifications (git checkout, git reset)
+
+git checkout est utile pour annuler des modifications locales dans les fichiers qui n'ont pas encore été ajoutés à l'index.
+git reset est plus puissant et permet de manipuler l'index et l'historique des commits.
