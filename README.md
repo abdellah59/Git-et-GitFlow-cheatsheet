@@ -17,13 +17,11 @@ Ce document est un guide pratique pour comprendre et maîtriser Git et GitFlow. 
 ### 1.1 Introduction à Git
 
    - [1.1.1 C'est quoi Git ? ](git-gitflow-documents/git.md)
-   - [1.1.2 Pourquoi adopter Git ? ](git-gitflow-documents/git.md)
-   - [1.1.3 Comment utiliser Git au quotidien ?](git-gitflow-documents/git.md)
-   - [1.1.4 Quelle différence existe-t-il entre Git et GitHub ?](git-gitflow-documents/git.md)
+   - [1.1.2 Quelle différence existe-t-il entre Git et GitHub ?](git-gitflow-documents/git.md)
 
 ## 1.2 Installation et configuration de Git
 
-   - [1.2.1 Installation et configuration de Git (windows, macOS, Linux)](git-gitflow-documents/git.md)
+   - [1.2.1 Installation de Git (windows, macOS, Linux)](git-gitflow-documents/git.md)
    - [1.2.2 Paramétrage initial de Git (git config)](git-gitflow-documents/git.md)
    - [1.2.3 Créer et associer une clé SSH](git-gitflow-documents/git.md)
 
