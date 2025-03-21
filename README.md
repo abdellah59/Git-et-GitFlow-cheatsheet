@@ -49,7 +49,7 @@ Ce document est un guide pratique pour comprendre et maîtriser Git et GitFlow. 
    - [1.4.6 Récupérer les modifications depuis un dépôt distant (git pull)](git-gitflow-documents/git.md)
    - [1.4.7 Collaborer avec des forks et des pull requests](git-gitflow-documents/git.md)
 
-# 2. GitFlow <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--b_QCE-F_--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_800/https://my-bucket-image2.s3.amazonaws.com/ImageGitHub/git-flow-logo.png" height="39" alt="git logo"  />
+# 2. GitFlow <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--b_QCE-F_--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_800/https://my-bucket-image2.s3.amazonaws.com/ImageGitHub/git-flow-logo.png" height="39" alt="git logo" />
   <img width="20" />
 </div>
 
