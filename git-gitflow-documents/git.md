@@ -291,3 +291,108 @@ Cela vous permet de consulter rapidement l'historique des changements apportés 
 
 git checkout est utile pour annuler des modifications locales dans les fichiers qui n'ont pas encore été ajoutés à l'index.
 git reset est plus puissant et permet de manipuler l'index et l'historique des commits.
+
+## 1.4 Git pour les projets collaboratifs
+
+### 1.4.1 Présentation des branches
+
+Branche principale (main/master) :
+
+Par défaut, Git crée une branche principale lors de l'initialisation d'un dépôt. Cette branche est souvent nommée main ou master et représente la version stable du projet, celle qui est utilisée pour déployer en production.
+
+Création de nouvelles branches :
+
+Lorsqu'une nouvelle fonctionnalité, un bug, ou une amélioration doit être développée, une nouvelle branche est créée à partir de la branche principale (ou d'une autre branche). Cela permet de travailler sur ces modifications sans perturber la branche principale.
+
+Fusion des branches (merge) :
+
+Une fois que les modifications sur une branche sont terminées et testées, elles peuvent être intégrées dans la branche principale (ou une autre branche cible) via un processus de fusion (git merge).
+
+Branches distantes et locales :
+
+Branches locales : Ce sont les branches créées et utilisées localement dans votre dépôt.
+Branches distantes : Ce sont les branches qui existent sur un dépôt distant, comme GitHub, GitLab, ou Bitbucket, et qui permettent de collaborer à plusieurs sur le même projet.
+
+### 1.4.2 Créer et naviguer entre les branches
+
+Résumé des commandes pour travailler avec des branches :
+
+1. Créer une branche :
+
+```bash
+git branch <nom_de_branche>
+```
+2. Créer une branche et basculer dessus :
+
+```bash
+git checkout -b <nom_de_branche>
+```
+
+ou avec git switch :
+
+```bash
+git switch -c <nom_de_branche>
+```
+
+3. Voir la branche active :
+
+```bash
+git branch
+```
+
+4. Basculer entre les branches :
+
+```bash
+git branch <nom_de_branche>
+```
+
+5. Voir les branches distantes :
+
+```bash
+git branch -r
+```
+
+6. Fusionner une branche dans une autre :
+
+```bash
+git merge <nom_de_branche>
+```
+
+7. Supprimer une branche locale :
+
+```bash
+git branch -d <nom_de_branche>
+```
+
+8. Supprimer une branche distante :
+
+```bash
+git push origin --delete <nom_de_branche>
+```
+
+### 1.4.3 Fusionner des branches (git merge)
+
+La fusion de branches avec git merge est un processus clé pour intégrer des fonctionnalités ou des correctifs dans le code principal. La commande est assez simple, mais elle peut parfois entraîner des conflits, qui doivent être résolus manuellement. Il est toujours bon de vérifier les changements après une fusion pour s'assurer que tout fonctionne correctement.
+
+### 1.4.4 Résoudre les conflits de fusion
+
+Résumé des étapes pour résoudre les conflits de fusion :
+
+    Vérifiez les fichiers en conflit avec git status.
+    Ouvrez les fichiers en conflit : les conflits seront délimités par <<<<<<<, =======, et >>>>>>>.
+    Résolvez les conflits en choisissant ou combinant les changements, puis supprimez les balises de conflit.
+    Ajoutez les fichiers résolus à l'index avec git add <fichier>.
+    Complétez la fusion avec git commit.
+    Vérifiez et testez le code pour vous assurer que tout fonctionne correctement après la fusion.
+
+### 1.4.5 Envoyer des modifications vers un dépôt distant (git push)
+
+La commande git push est essentielle pour envoyer vos changements locaux vers un dépôt distant, permettant ainsi de collaborer avec d'autres développeurs ou de sauvegarder votre travail. Assurez-vous de bien comprendre son fonctionnement, surtout lorsqu'il s'agit de forcer la mise à jour ou de gérer les branches distantes.
+
+### 1.4.6 Récupérer les modifications depuis un dépôt distant (git pull)
+
+La commande git pull est essentielle pour garder votre branche locale synchronisée avec le dépôt distant, notamment lors du travail en équipe. Elle vous permet de récupérer et d'intégrer les modifications des autres développeurs. Bien que git pull facilite la mise à jour de votre code, vous devez être vigilant lors de la résolution des conflits et choisir judicieusement entre merge et rebase en fonction de la situation.
+
+### 1.4.7 Collaborer avec des forks et des pull requests
+
+Les forks et les pull requests sont des outils puissants pour la collaboration sur des projets open source ou des projets en équipe. Ils permettent à chaque contributeur de travailler indépendamment sur ses propres copies du code tout en permettant une revue collaborative des modifications proposées avant qu'elles ne soient intégrées dans le projet principal. Cela aide à maintenir la qualité du code tout en facilitant la contribution de plusieurs développeurs.

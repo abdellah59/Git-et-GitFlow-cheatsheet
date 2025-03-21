@@ -42,7 +42,7 @@ Ce document est un guide pratique pour comprendre et maîtriser Git et GitFlow. 
 ## 1.4 Git pour les projets collaboratif
 
    - [1.4.1 Présentation des branches](git-gitflow-documents/git.md)
-   - [1.4.2 Créer et naviguer entre les branches (git branch, git checkout, git switch) ](git-gitflow-documents/git.md)
+   - [1.4.2 Créer et naviguer entre les branches(git branch, git checkout, git switch) ](git-gitflow-documents/git.md)
    - [1.4.3 Fusionner des branches (git merge)](git-gitflow-documents/git.md)
    - [1.4.4 Résoudre les conflits de fusion](git-gitflow-documents/git.md)
    - [1.4.5 Envoyer des modifications vers un dépôt distant (git push)](git-gitflow-documents/git.md)
