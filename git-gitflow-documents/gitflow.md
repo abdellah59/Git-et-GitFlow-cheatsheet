@@ -1,8 +1,16 @@
 # 2. Guide Complet sur GitFlow
 
+<img src="https://res.cloudinary.com/practicaldev/image/fetch/s--b_QCE-F_--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_800/https://my-bucket-image2.s3.amazonaws.com/ImageGitHub/git-flow-logo.png" width="400" />
+
+
 ## 2.1 Introduction à GitFlow
 
 ## 2.1.1 Qu'est ce qu'un workflow
+
+<div style="text-align: center;">
+  <img src="https://imgur.com/DglXdMo.png" width="150" />
+</div>
+
 Un **workflow** est une série de processus ou d'étapes organisées de manière logique pour accomplir une tâche ou un objectif spécifique. Dans le contexte de Git, un workflow définit la manière dont les développeurs collaborent sur un projet en utilisant des branches, des merges, et des pratiques spécifiques pour gérer le code source de manière efficace et structurée.
 
 
@@ -128,6 +136,10 @@ Utiliser `git merge` ou `git rebase` pour résoudre les conflits.
 ---
 
 ## 2.7 Conclusion
+
+<div style="text-align: center;">
+  <img src="https://imgur.com/6XjrkCx.png" width="150" />
+</div>
 
 ### 2.7.1 Quand utiliser GitFlow ?
 - Projets complexes avec plusieurs versions en parallèle.
