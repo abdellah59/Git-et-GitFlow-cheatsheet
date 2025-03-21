@@ -100,7 +100,7 @@ Ce cheat sheet couvre les commandes essentielles pour **Git** et **GitFlow** afi
             <td></td>
         </tr>
         <tr>
-            <td align="right"><code>git add [fichier]</code></td>
+            <td align="right"><code>git ad﻿d [fichier]</code></td>
             <td>Déplace un fichier dans la zone de stage</td>
             <td><code>git add exemple.md</code></td>
         </tr>
@@ -301,4 +301,4 @@ Ce cheat sheet couvre les commandes essentielles pour **Git** et **GitFlow** afi
 
 #### SymBiios
 - **Role**: Developeur
-- **GitHub**: [Justin Didelot](https://github.com/SymBiios)
+- **GitHub**: [Julien](https://github.com/SymBiios)
