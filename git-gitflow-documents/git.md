@@ -1,11 +1,37 @@
 
-=======
+
 # 1. Git <div align="center">
   <img height="80" src="https://cours-web.ch/git/img/git-basics/git-logo.png" />
 </div>
  
-
+# Table des matières 
 ## 1.1 Introduction à Git
+- [1.1.1 C'est quoi Git ? ](#111-cest-quoi-git-)
+- [1.1.2 Quelle différence existe-t-il entre Git et GitHub ?](#112-quelle-différence-existe-t-il-entre-git-et-github-)
+## 1.2 Installation et configuration de Git
+- [1.2.1 Installation de Git (windows, macOS, Linux)](#121-installation-de-git-windows-macos-linux)
+- [1.2.2 Paramétrage initial de Git (git config)](#122-paramétrage-initial-de-git-git-config)
+- [1.2.3 Créer et associer une clé SSH](#123-créer-et-associer-une-clé-ssh)
+## 1.3 Les bases de Git
+- [1.3.1 Créer un dépôt Git (git init)](#131-créer-un-dépôt-git-git-init)
+- [1.3.2 Cloner un dépôt existant (git clone)](#132-cloner-un-dépôt-existant-git-clone) 
+- [1.3.3 Ajouter des fichiers au suivi (git add)](#133-ajouter-des-fichiers-au-suivi-git-add)
+- [1.3.4 Enregistrer les modifications (git commit)](#134-enregistrer-les-modifications-git-commit)
+- [1.3.5 Vérifier l'état du dépôt (git status)](#135-vérifier-létat-du-dépôt-git-status)
+- [1.3.6 Consulter l'historique des commits (git log)](#136-consulter-lhistorique-des-commits-git-log)
+- [1.3.7 Annuler des modifications (git checkout, git reset)](#137-annuler-des-modifications-git-checkout-git-reset)
+- [1.3.8 Enregistrer les modifications (git commit)](#138-enregistrer-les-modifications-git-commit)
+- [1.3.9 Vérifier l'état du dépôt (git status)](#139-vérifier-létat-du-dépôt-git-status)
+- [1.3.10 Consulter l'historique des commits (git log)](#1310-consulter-lhistorique-des-commits-git-log)
+- [1.3.11 Annuler des modifications (git checkout, git reset)](#1311-annuler-des-modifications-git-checkout-git-reset)
+## 1.4 Git pour les projets collaboratif
+- [1.4.1 Présentation des branches](#141-présentation-des-branches)
+- [1.4.2 Créer et naviguer entre les branches(git branch, git checkout, git switch) ](#142-créer-et-naviguer-entre-les-branches)
+- [1.4.3 Fusionner des branches (git merge)](#143-fusionner-des-branches-git-merge)
+- [1.4.4 Résoudre les conflits de fusion](#144-résoudre-les-conflits-de-fusion) 
+- [1.4.5 Envoyer des modifications vers un dépôt distant (git push)](#145-envoyer-des-modifications-vers-un-dépôt-distant-git-push)
+- [1.4.6 Récupérer les modifications depuis un dépôt distant (git pull)](#146-récupérer-les-modifications-depuis-un-dépôt-distant-git-pull)
+- [1.4.7 Collaborer avec des forks et des pull requests](#147-collaborer-avec-des-forks-et-des-pull-requests)
 
 ### 1.1.1 C'est quoi Git ?
 
