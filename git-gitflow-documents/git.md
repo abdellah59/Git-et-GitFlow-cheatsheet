@@ -196,7 +196,7 @@ Commitez les fichiers ajoutés :
 git commit -m "Premier commit"
 ```
 
-### 1.3.5 Vérifier l'état du dépôt (git status)
+### 1.3.5 Vérifier l'état du dépôt (git status) 📁
 
 Vérifier l'état du dêpot :
 
@@ -318,7 +318,7 @@ Cela vous permet de consulter rapidement l'historique des changements apportés 
 git checkout est utile pour annuler des modifications locales dans les fichiers qui n'ont pas encore été ajoutés à l'index.
 git reset est plus puissant et permet de manipuler l'index et l'historique des commits.
 
-## 1.4 Git pour les projets collaboratifs
+## 1.4 Git pour les projets collaboratifs 🔄
 
 ### 1.4.1 Présentation des branches
 

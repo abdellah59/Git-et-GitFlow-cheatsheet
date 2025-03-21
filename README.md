@@ -30,27 +30,20 @@ Ce document est un guide pratique pour comprendre et maîtriser Git et GitFlow. 
 
 ## [2.1 Guide Complet sur GitFlow](git-gitflow-documents/gitflow.md)
   
-
-
 ## [2.2 Installation de GitFlow](git-gitflow-documents/gitflow.md)
-
   
 ## [2.3 Initialisation de GitFlow dans un projet](git-gitflow-documents/gitflow.md) 
    
 ## [2.4 Utilisation des branches GitFlow](git-gitflow-documents/gitflow.md)
   
-   
 ## [2.5 Commandes avancées et bonnes pratiques](git-gitflow-documents/gitflow.md)
 
-   
-   
 ## [2.6 Problèmes courants et solutions](git-gitflow-documents/gitflow.md)
 
-  
 ## [2.7 Conclusion](git-gitflow-documents/gitflow.md)
 
 
-# [3. Cheat Sheet : Commandes principales](git-gitflow-documents/gitflow.md) 
+# 3. Cheat Sheet : Commandes principales 
 
 Ce cheat sheet couvre les commandes essentielles pour **Git** et **GitFlow** afin de gérer efficacement les versions et le développement collaboratif.
 
@@ -283,6 +276,6 @@ Ce cheat sheet couvre les commandes essentielles pour **Git** et **GitFlow** afi
 - **Role**: Developeur
 - **GitHub**: [Milan](https://github.com/Milan59300)
 
-#### SymBiios
+#### Julien
 - **Role**: Developeur
 - **GitHub**: [Julien](https://github.com/SymBiios)
