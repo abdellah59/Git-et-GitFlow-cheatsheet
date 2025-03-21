@@ -7,7 +7,7 @@ Un **workflow** est une série de processus ou d'étapes organisées de manière
 
 
 ### 2.1.2 Qu'est-ce que GitFlow ?
-**GitFlow** est un workflow Git qui définit un ensemble de règles et de pratiques pour organiser le développement de logiciels à l'aide de branches. Il introduit des branches spécifiques pour gérer les fonctionnalités, les versions et les corrections de bugs de manière structurée. L'objectif est d'assurer une séparation claire entre le développement, les tests et la production, facilitant ainsi la collaboration et la gestion des versions dans un projet.
+**GitFlow** est un workflow Git qui définit un ensemble de règles et de pratiques pour organiser le développement de logiciels à l'aide de branches. Il introduit des branches spécifiques pour gérer les fonctionnalités, les versions et les corrections de bugs de manière structurée.
 
 
 ### 2.1.3 Pourquoi utiliser GitFlow ?
