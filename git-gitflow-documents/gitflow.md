@@ -2,7 +2,43 @@
 
 <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--b_QCE-F_--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_800/https://my-bucket-image2.s3.amazonaws.com/ImageGitHub/git-flow-logo.png" width="400" />
 
+## 2.1 Guide Complet sur GitFlow
 
+   - [2.1.1 Qu'est-ce qu'un workflow](#211-quest-ce-quun-workflow)
+   - [2.1.2 Qu'est-ce que GitFlow ?](#212-quest-ce-que-gitflow-)
+   - [2.1.3 Pourquoi utiliser GitFlow ?](#213-pourquoi-utiliser-gitflow-)
+   - [2.1.4 Différence entre Git et GitFlow](#214-différence-entre-git-et-gitflow)
+   - [2.1.5 Avantages et inconvénients de GitFlow](#215-avantages-et-inconvénients-de-gitflow)
+
+## 2.2 Installation de GitFlow
+
+   - [2.2.1 Prérequis](#221-prérequis)
+   - [2.2.2 Installation sur Linux (Debian/Ubuntu)](#222-installation-sur-linux-debianubuntu)
+   - [2.2.3 Installation sur macOS (via Homebrew)](#223-installation-sur-macos-via-homebrew)
+   - [2.2.4 Installation sur Windows](#224-installation-sur-windows)
+   - [2.2.5 Vérifier l'installation](#225-vérifier-linstallation)
+   
+## 2.3 Initialisation de GitFlow dans un projet
+   
+## 2.4 Utilisation des branches GitFlow
+   - [2.4.1 Gestion des fonctionnalités (features)](#241-gestion-des-fonctionnalités-features)
+   - [2.4.2 Gestion des versions (releases)](#242-gestion-des-versions-releases)
+   - [2.4.3 Gestion des correctifs (hotfixs)](#243-gestion-des-correctifs-hotfixs)
+   
+## 2.5 Commandes avancées et bonnes pratiques
+
+   - [2.5.1 Comment annuler une action GitFlow](#251-comment-annuler-une-action-gitflow)
+   - [2.5.2 Personnaliser GitFlow](#252-personnaliser-gitflow)
+   
+## 2.6 Problèmes courants et solutions
+
+  - [2.6.1 Conflits entre branches](#261-conflits-entre-branches)
+  - [2.6.2 Rebase et merge dans GitFlow](#262-rebase-et-merge-dans-gitflow)
+
+## 2.7 Conclusion
+
+  - [2.7.1 Quand utiliser GitFlow ?](#271-quand-utiliser-gitflow-)
+  - [2.7.2 Résumé des bonnes pratiques](#272-résumé-des-bonnes-pratiques)
 ## 2.1 Introduction à GitFlow
 
 ## 2.1.1 Qu'est ce qu'un workflow
