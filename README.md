@@ -14,42 +14,17 @@ Ce document est un guide pratique pour comprendre et maîtriser Git et GitFlow. 
   <img width="20" />
 </div>
 
-## 1.1 Introduction à Git
+## [1.1 Introduction à Git](git-gitflow-documents/git.md)
 
-   - [1.1.1 C'est quoi Git ? ](git-gitflow-documents/git.md)
-   - [1.1.2 Quelle différence existe-t-il entre Git et GitHub ?](git-gitflow-documents/git.md)
+## [1.2 Installation et configuration de Git](git-gitflow-documents/git.md)
 
-## 1.2 Installation et configuration de Git
+## [1.3 Les bases de Git](git-gitflow-documents/git.md)
 
-   - [1.2.1 Installation de Git (windows, macOS, Linux)](git-gitflow-documents/git.md)
-   - [1.2.2 Paramétrage initial de Git (git config)](git-gitflow-documents/git.md)
-   - [1.2.3 Créer et associer une clé SSH](git-gitflow-documents/git.md)
+## [1.4 Git pour les projets collaboratif](git-gitflow-documents/git.md)
 
-## 1.3 Les bases de Git
 
-   - [1.3.1 Créer un dépôt Git (git init)](git-gitflow-documents/git.md)
-   - [1.3.2 Cloner un dépôt existant (git clone)](git-gitflow-documents/git.md)
-   - [1.3.3 Ajouter des fichiers au suivi (git add)](git-gitflow-documents/git.md)
-   - [1.3.4 Enregistrer les modifications (git commit)](git-gitflow-documents/git.md)
-   - [1.3.5 Vérifier l'état du dépôt (git status)](git-gitflow-documents/git.md)
-   - [1.3.6 Consulter l'historique des commits (git log)](git-gitflow-documents/git.md)
-   - [1.3.7 Annuler des modifications (git checkout, git reset)](git-gitflow-documents/git.md)
-   - [1.3.8 Enregistrer les modifications (git commit)](git-gitflow-documents/git.md)
-   - [1.3.9 Vérifier l'état du dépôt (git status)](git-gitflow-documents/git.md)
-   - [1.3.10 Consulter l'historique des commits (git log)](git-gitflow-documents/git.md)
-   - [1.3.11 Annuler des modifications (git checkout, git reset)](git-gitflow-documents/git.md)
 
-## 1.4 Git pour les projets collaboratif
-
-   - [1.4.1 Présentation des branches](git-gitflow-documents/git.md)
-   - [1.4.2 Créer et naviguer entre les branches(git branch, git checkout, git switch) ](git-gitflow-documents/git.md)
-   - [1.4.3 Fusionner des branches (git merge)](git-gitflow-documents/git.md)
-   - [1.4.4 Résoudre les conflits de fusion](git-gitflow-documents/git.md)
-   - [1.4.5 Envoyer des modifications vers un dépôt distant (git push)](git-gitflow-documents/git.md)
-   - [1.4.6 Récupérer les modifications depuis un dépôt distant (git pull)](git-gitflow-documents/git.md)
-   - [1.4.7 Collaborer avec des forks et des pull requests](git-gitflow-documents/git.md)
-
-# 2. GitFlow <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--b_QCE-F_--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_800/https://my-bucket-image2.s3.amazonaws.com/ImageGitHub/git-flow-logo.png" height="39" alt="git logo"  />
+# 2. GitFlow <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--b_QCE-F_--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_800/https://my-bucket-image2.s3.amazonaws.com/ImageGitHub/git-flow-logo.png" height="39" alt="git logo" />
   <img width="20" />
 </div>
 
