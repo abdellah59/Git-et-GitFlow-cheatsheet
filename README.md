@@ -43,7 +43,7 @@ Ce document est un guide pratique pour comprendre et maîtriser Git et GitFlow. 
 ## [2.7 Conclusion](git-gitflow-documents/gitflow.md)
 
 
-# 3. Cheat Sheet : Commandes principales 
+# 3. Git & GitFlow Cheat Sheet : Commandes Principales 
 
 Ce cheat sheet couvre les commandes essentielles pour **Git** et **GitFlow** afin de gérer efficacement les versions et le développement collaboratif.
 
